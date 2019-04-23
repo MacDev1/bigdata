@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from numpy.linalg import inv
 import numpy as np
 
-df = pd.read_csv('/home/macdev/Documents/MIAGE M2 COURS/DATAMINING WITH PYTHON/DATA/Humanité_Inclusion/benefs.csv')
+df = pd.read_csv('/home/benefs.csv')
 
 idB = df.dropna()["Beneficiary ID"]
 age = df.dropna()["Age"]
